@@ -1,0 +1,16 @@
+[package]
+name = "chksum-hash-core"
+version = "0.0.0"
+authors = ["Konrad Goławski <konrad@golawski.it>"]
+edition = "2021"
+rust-version = "1.58.0"
+description = "Core traits and functions for batch and stream hash computation."
+readme = ".cargo/README.md"
+repository = "https://github.com/chksum-rs/hash-core"
+license = "MIT"
+keywords = ["checksum", "digest", "hash"]
+categories = ["algorithms", "cryptography"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
